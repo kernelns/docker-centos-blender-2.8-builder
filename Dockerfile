@@ -15,7 +15,7 @@ RUN yum -y install centos-release-scl epel-release \
     libX11-devel libXcursor-devel libXi-devel libXinerama-devel \
     libXrandr-devel libXt-devel make mesa-libGLU-devel patch pcre-devel \
     pulseaudio-libs-devel python36 python-setuptools subversion tcl yasm \
-    zlib-devel
+    zlib-devel \
  && yum clean all
 
 # Use cmake3
